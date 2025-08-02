@@ -1,5 +1,7 @@
 🔐 Vigenère Cipher – Python Encryption & Decryption
-This project implements the Vigenère cipher, a classical cryptographic algorithm used for text encryption and decryption. It allows users to securely encrypt and decrypt messages using a keyword-based shifting technique.
+
+
+This project implements the Vigenère Cipher, a classical cryptographic algorithm that encrypts and decrypts messages using a keyword-based shifting technique.
 
 🚀 Features
 ✅ Encrypt and decrypt text messages
@@ -19,7 +21,8 @@ Edit
 python_projects/
 │── vigenere_cipher/
 │   ├── main.py       # Main encryption/decryption script
-│   └── README.md     # Project documentation
+│   ├── README.md     # Project documentation
+│   └── LICENSE       # MIT License
 🛠️ Usage
 Run the program:
 
@@ -44,23 +47,11 @@ Choose an option (1/2/0): 1
 🖼️ Preview Screenshot
 
 🧠 How It Works
-The Vigenère cipher shifts each letter of the plaintext
-based on the corresponding letter in the key.
+Each letter is shifted by the corresponding character in the key.
 
-Non-alphabetic characters are not modified.
+Non-alphabetic characters remain unchanged.
 
-Encryption and decryption use the same function
-with positive or negative shifts.
-
-🤝 Contributing
-Pull requests and feature suggestions are welcome!
-Possible future improvements:
-
-🔑 Add file-based encryption/decryption
-
-🖼️ GUI version with Tkinter
-
-📦 Packaging as a Python module
+Uses the same function for encryption and decryption with different shift directions.
 
 📜 License
 This project is licensed under the MIT License.
