@@ -23,6 +23,9 @@ python_projects/
 │   ├── main.py       # Main encryption/decryption script
 │   ├── README.md     # Project documentation
 │   └── LICENSE       # MIT License
+│   └── screenshots/
+│       ├── encrypt.png
+│       └── decrypt.png
 🛠️ Usage
 Run the program:
 
@@ -44,7 +47,10 @@ Choose an option (1/2/0): 1
 🔐 Enter the encryption key: Python
 
 ✅ Encrypted text: Evdtymyyywv wg Jhx!
-🖼️ Preview Screenshot
+🖼️ Demo
+🔑 Encryption:
+
+🔓 Decryption:
 
 🧠 How It Works
 Each letter is shifted by the corresponding character in the key.
@@ -55,3 +61,14 @@ Uses the same function for encryption and decryption with different shift direct
 
 📜 License
 This project is licensed under the MIT License.
+
+✅ Steps to Use This:
+Create a folder screenshots/ inside your vigenere_cipher project.
+
+Upload:
+
+encrypt.png (encryption terminal screenshot)
+
+decrypt.png (decryption terminal screenshot)
+
+Commit → GitHub will automatically display them in the README.
