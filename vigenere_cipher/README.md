@@ -64,14 +64,3 @@ Uses the same function for encryption and decryption with different shift direct
 
 📜 License
 This project is licensed under the MIT License.
-
-✅ Steps to Use This:
-Create a folder screenshots/ inside your vigenere_cipher project.
-
-Upload:
-
-encrypt.png (encryption terminal screenshot)
-
-decrypt.png (decryption terminal screenshot)
-
-Commit → GitHub will automatically display them in the README.
