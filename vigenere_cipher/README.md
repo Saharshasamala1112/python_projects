@@ -47,10 +47,13 @@ Choose an option (1/2/0): 1
 🔐 Enter the encryption key: Python
 
 ✅ Encrypted text: Evdtymyyywv wg Jhx!
-🖼️ Demo
-🔑 Encryption:
+## 🖼️ Demo
 
-🔓 Decryption:
+### 🔑 Encryption:
+![Encryption Demo](screenshots/encrypt.png)
+
+### 🔓 Decryption:
+![Decryption Demo](screenshots/decrypt.png)
 
 🧠 How It Works
 Each letter is shifted by the corresponding character in the key.
